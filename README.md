@@ -33,10 +33,13 @@ TargetSettings.TargetTagがタグとして割り当てられたGameObjectを1つ
 
 ### Solver.GravityMultiplier
 重力係数(-9.8)に乗算されます。
+
 1だと落ちるのが早すぎるので、0.2くらいが良いかもしれません。
 
 ### Solver.LiquidQuantity
-両端の液体の量です。ラインの太さに影響します。
+両端から下に流れる液体の量です。
+
+ラインの太さに影響します。
 
 ### Solver.LifeTimeFramesOfBrokenChain
 糸が切れてからの生存フレーム数です。
