@@ -67,6 +67,7 @@ namespace ARYKEI.LiquidChain
 
             public float BreakThreshold = 0.01f;
             public float StraightRange = 0.03f;
+            public float GravityMultiplier = 1.0f;
 
             [HideInInspector]
             public float currentTotalDistance;
@@ -170,7 +171,7 @@ namespace ARYKEI.LiquidChain
                     var p = points[i];
 
                     p.position = p.predict;
-                    p.velocity += new Vector3(0, -9.8f * 0.2f, 0) * Time.fixedDeltaTime;
+                    p.velocity += new Vector3(0, -9.8f * GravityMultiplier, 0) * Time.fixedDeltaTime;
                     p.predict += p.velocity * Time.fixedDeltaTime;
                 }
             }
