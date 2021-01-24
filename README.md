@@ -1,5 +1,6 @@
 # unity-LiquidChain
 # 糸を引く液体のスクリプト
+![liquidChainSampleImage](https://user-images.githubusercontent.com/39085780/105623709-17da0400-5e5f-11eb-9d0f-7fa4aebd428e.jpg)
 
 糸を引く液体を再現するためのスクリプトです
 
