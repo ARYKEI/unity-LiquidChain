@@ -21,6 +21,10 @@ LineRendererを持つGameObjectに割り当てます
 ### Solver.StraightRange
 糸がまっすぐになる範囲です。
 
+### Solver.GravityMultiplier
+重力係数(-9.8)に乗算されます。
+1だと落ちるのが早すぎるので、0.2くらいが良いかもしれません。
+
 ### Solver.LiquidQuantity
 両端の液体の量です。ラインの太さに影響します。
 
